@@ -12,4 +12,8 @@ public class ApiTest {
     public String getMethod(){
         return "hi";
     }
+
+    @GetMapping
+    @RequestMapping("/hello")
+    public String getHello(){return "hello";}
 }
