@@ -12,17 +12,4 @@ public class ApiTest {
     public String getMethod(){
         return "hi";
     }
-
-    @GetMapping
-    @RequestMapping("/hi2")
-    public String getMethod2(){
-        return "hi";
-    }
-
-    @GetMapping
-    @RequestMapping("/hi3")
-    public String getMethod3(){
-        return "hi";
-    }
-
 }
