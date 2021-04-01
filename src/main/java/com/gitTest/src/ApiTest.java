@@ -12,5 +12,6 @@ public class ApiTest {
     public String getMethod(){
         //log1
         return "hi";
+        //stash 추가하고 커밋
     }
 }
