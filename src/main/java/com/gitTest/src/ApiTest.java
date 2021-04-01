@@ -10,6 +10,7 @@ public class ApiTest {
     @GetMapping
     @RequestMapping("/hi")
     public String getMethod(){
+        //log1
         return "hi";
     }
 }
